@@ -1,0 +1,3 @@
+Query : 
+
+SELECT * FROM posts p , comments c , users u WHERE u.id_user=p.id_user AND p.id_post=c.id_post;
